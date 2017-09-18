@@ -1,0 +1,38 @@
+{
+  "name": "designbycode/tagger",
+  "description": "a Tagging package for laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Claude Myburgh",
+      "email": "claude@designbycode.co.za"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Designbycode\\Tagger\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.6.25",
+    "illuminate/database": ">=5.0",
+    "illuminate/support": ">=5.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.0"
+  },
+  "autoload-dev": {
+    "classmap" : [
+      "tests/TestCase.php",
+      "tests/stubs/LessonStub.php",
+      "tests/stubs/TagStub.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Designbycode\\Tagger\\Providers\\TaggerServiceProvider"
+      ]
+    }
+  }
+}
