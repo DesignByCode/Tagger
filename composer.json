@@ -27,6 +27,13 @@
       "tests/stubs/LessonStub.php",
       "tests/stubs/TagStub.php"
     ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Designbycode\\Tagger\\Providers\\TaggerServiceProvider"
+      ]
+    }
   }
 
 
