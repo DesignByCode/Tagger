@@ -1,6 +1,6 @@
 <?php
 
-use Designbycode\Tagger\Providers\TaggerServiceProvider;
+use DesignByCode\Tagger\Providers\TaggerServiceProvider;
 
 abstract class TestCase extends Orchestra\Testbench\TestCase
 {

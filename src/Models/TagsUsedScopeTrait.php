@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Designbycode\Tagger\Models;
+namespace DesignByCode\Tagger\Models;
 
 
 trait TagsUsedScopeTrait

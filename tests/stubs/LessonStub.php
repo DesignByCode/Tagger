@@ -2,7 +2,7 @@
 
 
 use Illuminate\Database\Eloquent\Model;
-use Designbycode\Tagger\Models\TaggableTrait;
+use DesignByCode\Tagger\Models\TaggableTrait;
 
 class LessonStub extends Model
 {

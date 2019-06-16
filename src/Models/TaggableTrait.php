@@ -1,9 +1,9 @@
 <?php
 
-namespace Designbycode\Tagger\Models;
+namespace DesignByCode\Tagger\Models;
 
-use Designbycode\Tagger\Models\Tag;
-use Designbycode\Tagger\Models\TaggableScopeTrait;
+use DesignByCode\Tagger\Models\Tag;
+use DesignByCode\Tagger\Models\TaggableScopeTrait;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Designbycode\Tagger\Providers;
+namespace DesignByCode\Tagger\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
