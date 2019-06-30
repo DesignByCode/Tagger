@@ -61,7 +61,7 @@ trait TaggableTrait
      */
     private function removeAllTags()
     {
-        $this->removeTags($this->tags);
+        $this->removeTags($this->tags());
     }
 
     /**
