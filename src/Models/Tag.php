@@ -9,6 +9,6 @@ class Tag extends Model
 {
     use TagsUsedScopeTrait;
 
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'slug'];
 
 }
